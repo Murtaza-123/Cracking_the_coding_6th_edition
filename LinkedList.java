@@ -191,7 +191,8 @@ public void delete(){
     n.next = n.next.next;
     
 }
-public void count_duplicate(){
+//Remove duplicates from singly linked list.
+public void remove_duplicate(){
     Node n = head,temp=null,pointer=null;
     while(n!=null){
         temp = n;
